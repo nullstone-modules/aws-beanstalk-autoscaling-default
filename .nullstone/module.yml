@@ -1,0 +1,14 @@
+org_name: nullstone
+name: aws-beanstalk-autoscaling-default
+friendly_name: Default AutoScaling for Beanstalk
+description: Creates a default auto-scaling policy for Elastic Beanstalk applications
+category: capability
+subcategory: events
+provider_types:
+    - aws
+platform: ec2
+subplatform: beanstalk
+type: ""
+appCategories:
+    - server
+is_public: true
